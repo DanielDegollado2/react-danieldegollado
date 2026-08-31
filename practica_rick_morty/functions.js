@@ -1,5 +1,3 @@
-console.log("Hello World Rick and Morty");
-
 obtenerPersonajes();
 
 async function obtenerPersonajes() {
