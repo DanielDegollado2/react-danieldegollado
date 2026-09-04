@@ -1,46 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pen</title>
-  </head>
-  <body>
-    <div class="header">
-      <h1 class="nombre">Daniel Degollado Rodríguez</h1>
-      <h3 class="profesion">Ingeniero en tecnologías computacionales</h2>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pen</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="nombre">Daniel Degollado Rodríguez</h1>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="width: 32px;"></div>
+      <h3 class="profesion" style="margin: 0;">Ingeniero en tecnologías computacionales</h3>
+      <a href="https://github.com/DanielDegollado2" target="_blank" aria-label="Perfil de GitHub"
+        style="color: inherit; display: flex;">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
     </div>
-    <div class="body">
-      <div class="perfil">
-        <div class="bloque">
-          <h5>PERFIL PROFESIONAL</h4>
-          <p>Este es el perfil profesional</p>
-        </div>
-        <div class="bloque">
-          <h5>EDUCACIÓN</h4>
+  </div>
+  <div class="body">
+    <div class="perfil">
+      <div class="bloque">
+        <h5>PERFIL PROFESIONAL</h4>
+          <p>Ingeniero en Tecnologías Computacionales con experiencia en el desarrollo de aplicaciones, manejo de bases
+            de datos y
+            desarrollo web; Cuento con habilidades y conocimientos de diversos lenguajes de programación, frameworks y
+            bases de datos
+            relacionales. </p>
+      </div>
+      <div class="bloque">
+        <h5>EDUCACIÓN</h4>
           <p>Tecnológico de Monterrey Agosto 2020 - Junio 2024</p>
-        </div>
-        
       </div>
-      <div class="experiencia">
-        <div class="bloque">
-          <h5>EXPERIENCIA</h4>
-          <p>Desarrollador backend en Infosys</p>
-        </div>
-        <div class="bloque">
-          <h5>TAREAS</h4>
-          <p>Shoe card</p>
-          <a href="./practica1.html" target="_blank">Ver tarea</a>
-          <br>
-          <p>Rick and Morty</p>
-          <a href="./practica_rick_morty/index.html">Ver tarea</a>
-          <br>
-          <p>Studio Ghibli</p>
-          <a href="./practica_studio_ghibli/index.html">Ver tarea</a>
-        </div>
+      <div class="bloque">
+        <h5>HABILIDADES</h4>
+          <h5>BACKEND</h5>
+          <ul>
+            <li>ASP.NET</li>
+            <li>Spring Boot</li>
+            <li>Express.js</li>
+          </ul>
+
+          <h5>IDIOMAS</h5>
+          <ul>
+            <li>Inglés C1 TOEFL iBT</li>
+            <li>Español</li>
+          </ul>
+
+          <h5>BASES DE DATOS</h5>
+          <ul>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>SQL Server</li>
+          </ul>
+
+          <h5>FRONTEND</h5>
+          <ul>
+            <li>React</li>
+            <li>Angular</li>
+          </ul>
+
+          <h5>LENGUAJES DE PROGRAMACIÓN</h5>
+          <ul>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+          </ul>
+
+          <h5>UNIT TESTING</h5>
+          <ul>
+            <li>JUnit</li>
+            <li>Jest</li>
+          </ul>
+      </div>
+
+    </div>
+    <div class="experiencia">
+      <div class="bloque">
+        <h5>EXPERIENCIA</h4>
+          <p>Ingeniero de Sistemas (Desarrollador Backend), Infosys Oct 2024 - Enero 2026</p>
+          <ul>
+            <li>Brindé mantenimiento al sistema, refactorizando código antiguo</li>
+            <li>Desarrollé e implementé nuevas funcionalidades utilizando el framework Spring Boot como backend</li>
+            <li>Creé y ejecuté pruebas unitarias con JUnit para validar el correcto funcionamiento de las nuevas
+              funcionalidades, apuntando a una cobertura de código superior al 90%</li>
+            <li>Redacté documentación detallando la funcionalidad de las nuevas características, describiendo casos de
+              uso relevantes y presentando los resultados de las pruebas unitarias que demuestran un rendimiento
+              confiable</li>
+            <li>Seguí flujos de trabajo con Git para un control de versiones adecuado</li>
+            <li>Apliqué la metodología Ágil en el proyecto, trabajando en sprints de dos semanas. El equipo realizaba
+              reuniones diarias de seguimiento para compartir avances y atender dudas o inquietudes</li>
+            <li>Completé certificaciones internas de la empresa en Java, Spring Boot, React y Angular</li>
+          </ul>
+      </div>
+      <div class="bloque">
+        <h5>TAREAS</h4>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Shoe card:</p>
+            <a href="./practica1.html" target="_blank">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Rick and Morty:</p>
+            <a href="./practica_rick_morty/index.html">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Studio Ghibli:</p>
+            <a href="./practica_studio_ghibli/index.html">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Ejercicios React:</p>
+            <a href="https://danieldegollado2.github.io/ejercicios-react/">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Entregable 1 - Proyecto final (Branch first-version):</p>
+            <a href="https://github.com/DanielDegollado2/proyecto-final/tree/first-version">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>CRUD de Usuarios:</p>
+            <a href="https://danieldegollado2.github.io/dia-3-datos/">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Entregable 2 - JWT Auth:</p>
+            <a href="https://danieldegollado2.github.io/jwt-auth-demo/login">Ver tarea</a>
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 10px;">
+            <p>Proyecto final:</p>
+            <a href="https://danieldegollado2.github.io/proyecto-final/login">Ver tarea</a>
+          </div>
       </div>
     </div>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
 </html>
